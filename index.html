@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <table border="1" cellspacing="0" cellpadding="0">
+        <thead>
+        <tr>
+            <th>first</th>
+            <th>second</th>
+            <th>third</th>
+        </tr>
+        </thead>
+        <tr>
+            <td>first cell!</td>     
+            <td rowspan="2">second cell!</td>
+            <td>third cell!</td>       
+        </tr>
+        <tr>
+            <td>first cell!</td>     
+            <td>second cell!</td>  
+            <td colspan="2">third cell!</td>     
+        </tr>
+        <tr>
+            <td>first cell!</td>     
+            <td>second cell!</td>       
+        </tr>
+    </table>
+
+    <form action="" method="GET">
+        <label for="firstName">First name: </label>
+        <input type="text" id="firstName" name="firstNameInput" value="Whatever" tabindex="0">
+
+        <br>
+        <label for="passwordInput">Password: </label>
+        <input type="password" id="passwordInput" name="passwordInput" placeholder="Please enter password!" tabindex="1">
+
+        <br>
+        <label for="comments">Text area: </label>
+        <textarea name="Comments" id="comments">This is a multi-line text field</textarea>
+        
+        <input type="hidden" name="Account" value="This is a hidden text
+        field"  tabindex="3"/>
+
+        <br>
+        <label for="checkboxInput">Check for apple!</label>
+        <input type="checkbox" id="checkInput" name="fruit" value="apple" tabindex="2"/>
+
+        <br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+
+        <br>
+        <label for="cars">Choose a car:</label>
+
+        <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi" selected>Audi</option>
+        </select>
+        <br>
+        
+        <fieldset>
+        <legend>Order Details</legend>
+        <input type="text" id="Quantity"/>
+        <br>
+        <textarea cols="40" rows="10" id="Remarks"></textarea>
+        </fieldset>
+
+
+        <br>
+        <input type="reset" name="resetBtn" value="Reset the form" />
+        <input type="submit" name="submitBtn" value="Apply Now" />
+
+    </form>
+    
+<hr>
+
+        <iframe name="iframeWiki"
+            width="300" height="200"
+            src="https://www.wikipedia.org/"
+            frameborder="yes"
+            scrolling="yes">
+        </iframe>
+
+        <header>
+            <nav><span>Navigation</span></nav>
+            <section>
+                <article>Article title!</article>
+            </section>
+        </header>
+
+
+
+
+
+
+</body>
+</html>
